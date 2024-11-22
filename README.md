@@ -30,39 +30,33 @@ Admins can:
 How to Run Locally
 
 Prerequisites
-Node.js installed
-MongoDB running locally or a connection string for a hosted MongoDB instance
+    Node.js installed
+    MongoDB running locally or a connection string for a hosted MongoDB instance
 
 Steps
-1. Clone the Repository
+    1. Clone the Repository
+        git clone <repository-url>
+        cd <project-folder>
+    2. Install Dependencies
+        npm install
+        cd client
+        npm install
+        cd ..
+    3. Set Up Environment Variables
+        Create a .env file in the root directory with the following details:
+        PORT=5000
+        MONGO_URI=<Your MongoDB URI>
+        PAYMENT_GATEWAY_KEY=<Your Payment Gateway API Key>
+    4. Run the App
+        Start the server:
+        npm run server
+        Start the client:
+        npm run client
+    5. Access the App
+        Open your browser and go to http://localhost:4000.
 
-git clone <repository-url>
-cd <project-folder>
+Future Enhancements:
 
-2. Install Dependencies
-
-npm install
-cd client
-npm install
-cd ..
-3. Set Up Environment Variables
-Create a .env file in the root directory with the following details:
-    PORT=5000
-    MONGO_URI=<Your MongoDB URI>
-    PAYMENT_GATEWAY_KEY=<Your Payment Gateway API Key>
-
-4. Run the App
-
-Start the server:
-npm run server
-
-Start the client:
-npm run client
-
-5. Access the App
-Open your browser and go to http://localhost:4000.
-
-Future Enhancements
     Add a delivery tracking system with real-time updates.
     Support for multiple payment gateways.
     Implement a recommendation system based on user preferences.
