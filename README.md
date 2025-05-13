@@ -55,14 +55,17 @@ A full-stack food delivery platform where users can browse food items, add them 
 
 
 2. **Install frontend & backend dependencies**
+
+    - Frontend Dependencies
       ```bash
       cd Backend
       npm install
+   - Backend Dependencies
+     ```bash
+      cd Frontend
+      npm install
 
-        cd Frontend
-        npm install
-
-Set up environment variables
+3. **Set up environment variables**
 
 Create a .env file in the /server directory with the following keys:
 
@@ -71,15 +74,17 @@ Create a .env file in the /server directory with the following keys:
     STRIPE_SECRET_KEY=your_stripe_secret_key
 
 
-3. Run the development servers
+4. Run the development servers
 
-# Start backend
+- Start backend
+  ```bash
     cd Backend
     npm run dev
 
-# Start frontend
-    cd Frontend
-    npm start
+- Start frontend
+  ```bash
+   cd Frontend
+   npm run server
 
 ---
 
@@ -93,5 +98,5 @@ Create a .env file in the /server directory with the following keys:
 
 ## 🧑‍💻 Author
 
-Uvajanani
-MERN Stack Developer
+- **Uvajanani**
+- MERN Stack Developer
