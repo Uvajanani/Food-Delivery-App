@@ -1,4 +1,4 @@
-# 🍔 Tomato - Food Delivery Web Application
+# 🍔 Food Delivery Web Application
 
 A full-stack food delivery platform where users can browse food items, add them to their cart, place orders with Stripe integration, and track their orders. The application also includes a powerful admin panel to manage food items and track user orders.
 
@@ -54,16 +54,13 @@ A full-stack food delivery platform where users can browse food items, add them 
         cd foodie
 
 
-2. Install frontend & backend dependencies
-
-
-# Install backend dependencies
+2. **Install frontend & backend dependencies**
+      ```bash
       cd Backend
       npm install
 
-# Install frontend dependencies
-    cd Frontend
-    npm install
+        cd Frontend
+        npm install
 
 Set up environment variables
 
