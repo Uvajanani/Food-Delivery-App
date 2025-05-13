@@ -79,12 +79,12 @@ Create a .env file in the /server directory with the following keys:
 - Start backend
   ```bash
     cd Backend
-    npm run dev
+    npm run server
 
 - Start frontend
   ```bash
    cd Frontend
-   npm run server
+   npm run dev
 
 ---
 
