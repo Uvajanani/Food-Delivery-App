@@ -51,7 +51,7 @@ A full-stack food delivery platform where users can browse food items, add them 
 
 
         git clone https://github.com/Uvajanani/Food-Delivery-App.git
-        cd foodie
+        cd Food-Delivery-App
 
 
 2. **Install frontend & backend dependencies**
